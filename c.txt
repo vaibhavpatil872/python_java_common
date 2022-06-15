@@ -1,2 +1,63 @@
-C content line 1
-pqrsssssssssssssssssssssssss...........
+print("basic calculation program")
+def add(x,y):
+    return x+y
+def sub(x,y):
+    return x-y
+def mul(x,y):
+    return x*y
+def div(x,y):
+    return x/y
+
+print("select your choice:")
+print("1.Addition")
+print("2.Substraction")
+print("3.Multiplication")
+print("4.Division")
+
+while True:
+    choice=int(input("Enter Your Choice:"))
+    if choice in (1,2,3,4):
+        num1=float(input("Enter First Number: "))
+        num2=float(input("Enter Second Number: "))
+        if choice==1:
+            print(num1,"+",num2,"=",add(num1,num2))
+        if choice==2:
+            print(num1,"-",num2,"=",sub(num1,num2))
+        if choice==3:
+            print(num1,"*",num2,"=",mul(num1,num2))
+        if choice==4:
+            print(num1,"/",num2,"=",div(num1,num2))
+        next_calcultion=input("Lets do next calculation (yes/no): ")
+        if next_calcultion=="no":
+            break
+    else:
+        print("Invalid Input")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
