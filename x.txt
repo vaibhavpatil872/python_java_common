@@ -1,5 +1,3 @@
-<<<<<<< HEAD
 contents added by sample5.
-=======
 contents added by sample4.
->>>>>>> 4f5e45f69a7cc008fba7ca6000c80f0b45c73d31
+
